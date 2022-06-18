@@ -1,0 +1,65 @@
+body {
+    color: #fff;
+    transition: background-color .2s ease-out;
+    background-color: #333;
+}
+
+a {
+    color: rgb(69, 163, 252);
+}
+
+.v {
+    color: rgb(96, 142, 235);
+}
+
+.n {
+    color: rgb(16, 163, 10);
+}
+
+.str {
+    color: rgb(230, 61, 10);
+}
+
+.punct {
+    color: white;
+}
+
+pre {
+    transition: background-color .2s ease;
+    background-color: rgb(53, 53, 53);
+    border-left: 3px solid rgb(50, 233, 126);
+    box-shadow: 0 0 1px 0px rgba(255, 255, 255, .25);
+}
+
+.short-code {
+    transition: background-color .2s ease-out;
+    background-color: #333;
+}
+
+nav {
+    transition: background-color .2s ease-out;
+    border-right: 1px solid #e6e6e6;
+    background-color: #222;
+}
+
+nav ul {
+    border-top: 2px solid #d2d2d2;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    transition: background-color .2s ease-out;
+    color: rgb(207, 207, 207);
+    background-color: rgb(29, 29, 29);
+}
+
+#theme[data-type="light"] {
+    display: block;
+}
+
+#theme[data-type="dark"] {
+    display: none;
+}

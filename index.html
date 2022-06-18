@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Documentation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" title="theme" href="css/theme-light.css" id="themeChanger">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+    <nav>
+        <header>JavaScript Programming Language</header>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#variables">Variables</li></a>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <section id="introduction">
+                <h1>Introduction</h1>
+                <p>JavaScript is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.</p>
+                <p>JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the <a href="https://en.wikipedia.org/wiki/Document_Object_Model">Document Object Model (DOM)</a>.</p>
+                <p>The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.</p>      
+                <p>JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.</p>
+            </section>
+            <section id="variables">
+                <h1>Variables</h1>
+                <p>Defining variables looks like this:</p>
+                <div class="code-section">
+                    <i class="far fa-copy copy"></i>
+                    <p class="copied-active">Copied to clipboard!</p>
+                    <pre>
+                        <code id="code-lines"><span class="v">var</span> a </span><span class="op">=</span><span class="n"> 10</span><span class="punct">;</span>
+<span class="v">let</span> str </span><span class="op">=</span><span class="str"> 'apple'</span><span class="punct">;</span>
+<span class="v">const</span> name <span class="op">=</span><span class="str"> 'John'</span><span class="punct">;</span></code>
+                    </pre>
+                </div>
+                
+                <p>JavaScript has three kinds of variable declarations.</p>
+                <ul class="article-ul">
+                    <li><code class="short-code li-code">var</code>declares a variable, optionally initializing it to a value.</li>
+                    <li><code class="short-code li-code">let</code>declares a block-scoped, local variable, optionally initializing it to a value.</li>
+                    <li><code class="short-code li-code">const</code>declares a block-scoped, read-only named constant.</li>
+                </ul>
+
+                <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
+                <p>A JavaScript identifier must start with a letter, underscore (<code class="short-code">_</code>), or dollar sign (<code class="short-code">$</code>). Subsequent characters can also be digits (<code class="short-code">0</code> – <code class="short-code">9</code>).</p>
+                <p>Because JavaScript is case sensitive, letters include the characters "<code class="short-code">A</code>" through "<code class="short-code">Z</code>" (uppercase) as well as "<code class="short-code">a</code>" through "<code class="short-code">z</code>" (lowercase).</p>
+                <p>You can use most of ISO 8859-1 or Unicode letters such as <code class="short-code">å</code> and <code class="short-code">ü</code> in identifiers. You can also use the Unicode escape sequences as characters in identifiers.</p>
+                <p>Some examples of legal names are <code class="short-code">Number_hits</code>, <code class="short-code">temp99</code>, <code class="short-code">$credit</code>, and <code class="short-code">_name.</code></p>
+
+            </section>
+            <section>
+                <h1></h1>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Copyright 2022 &copy;</h2>
+        <p>All rights reserved</p>
+    </footer>
+
+    <div id="themes">
+        <i id="theme" data-type="dark">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M1.75 8c0 3.45 2.8 6.25 6.25 6.25c3.41-.003 6.25-3 6.25-6c-1 .5-4 1.5-6-.5s-1-5-.5-6c-3 0-6 2.84-6 6.25z"/></svg>
+        </i>
+        <i id="theme" data-type="light">
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M5 5l1.5 1.5m11 11L19 19M2 12h2m16 0h2M5 19l1.5-1.5m11-11L19 5"/></g></svg>
+        </i>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
